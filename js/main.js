@@ -27,7 +27,7 @@ $("#edit").on('click', function(){
 	}
 });
 //тема приложения
-import {theme} from "./theme";
+import {theme} from "./modules/theme";
 
 document.addEventListener('DOMContentLoaded',function () {
     let sColor = localStorage.getItem('secondaryColor');

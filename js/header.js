@@ -33,7 +33,7 @@ class NavBarHeader{
 }
 
 window.onload = function () {
-    let Uname;
+    let UserName;
 
     let navheader = new NavBarHeader('Здравствуй');
     let name = localStorage.getItem('UserName');
@@ -46,9 +46,9 @@ window.onload = function () {
     navheader.fio = localStorage.getItem('UserName');
 
     navHeaderElem.innerHTML = navheader.HeaderHTML;
-    Uname = document.getElementById('userName');
+    UserName = document.getElementById('userName');
 
-    Uname.addEventListener('click',function () {
+    UserName.addEventListener('click',function () {
         let newName = prompt('Как к вам обращаться?',localStorage.getItem('UserName'));
         navheader.fio = newName;
     })

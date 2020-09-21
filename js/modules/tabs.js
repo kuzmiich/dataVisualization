@@ -5,7 +5,6 @@ function TabList(tabs){
     return `<ul>
                 ${tabs.map((el,i)=>Tab(el,i)).join('')}
             </ul>`
-
 }
 
 let tabs = [

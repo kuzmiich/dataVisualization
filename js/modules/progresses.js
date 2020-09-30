@@ -10,7 +10,6 @@ function skill(skill)
 
 function skillsBlock(skills)
 {
-	console.log(skills.map(skill).join(''));
 	return `<div class="skills_block">
 		${skills.map(skill).join('')}
 	</div>`

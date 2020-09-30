@@ -1,6 +1,9 @@
 *{
     letter-spacing: 0.05em;
 }
+.menu > li{
+    text-transform: uppercase;
+}
 .menu-btn{
     width: 30px;
     height: 40px;
